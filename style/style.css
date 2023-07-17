@@ -67,6 +67,14 @@
     align-items: baseline;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 /* padding rules */
 
 .p-5 {
@@ -159,7 +167,7 @@ section {
 
  /* testimonial partner section */
 
- .bio_avatar img {
+ .bio_avatar img, .about_us_image img {
     height: 100px;
     aspect-ratio: 1;
     border-radius: 50%;
@@ -174,6 +182,27 @@ section {
     border: 1px solid black;
 }
 
+/* start about us section */
+
+.about_us_text {
+    width: 70%;
+    background-color: blue;
+}
+
+.about_us_image {
+    width: 30%;
+}
+
+.about_us_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marks {
+    position: absolute;
+    left: 70px;
+}
 
 /* 480px display rules */
 
@@ -233,14 +262,23 @@ section {
      }
      .card_benefits {
         width: 100%;
-     }
+    }
 
+    /* start about us section */
+
+    .about_us .main_container {
+        flex-direction: column;
+        align-items: center;       
+    }
+    .about_us_image, .about_us_text {
+        width: 100%;
+    }
 
 }
 
 /* 768px display rules */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:481px) and (max-width:768px) {
     .search a {
     display: none;
    }
@@ -270,9 +308,10 @@ section {
      /* start benefits section */
 
      .card_benefits {
-        margin:10px 0px;
         width: calc(100% / 2 - 20px);
     }
+
+    /* start about us section */
 }
 
 
