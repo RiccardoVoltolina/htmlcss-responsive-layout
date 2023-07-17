@@ -204,6 +204,17 @@ section {
     left: 70px;
 }
 
+/* start get started section */
+
+.container_get_started {
+    width: 60%;
+    margin: auto;
+    max-width: 1170px;
+    background-color: green;
+    text-align: center;
+}
+
+
 /* 480px display rules */
 
 @media screen and (max-width:480px) {
@@ -274,6 +285,9 @@ section {
         width: 100%;
     }
 
+    /* start get started section */
+
+
 }
 
 /* 768px display rules */
@@ -312,6 +326,8 @@ section {
     }
 
     /* start about us section */
+
+    /* start get started section */
 }
 
 
