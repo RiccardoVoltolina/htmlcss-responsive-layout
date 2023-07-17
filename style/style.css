@@ -17,6 +17,11 @@
     border: 1px solid black;
 }
 
+.debug .bio_avatar {
+    background-color: blue;
+    border: 1px solid black;
+}
+
 
 
 
@@ -148,6 +153,15 @@ section {
     height: 50px;
 }
 
+ /* testimonial partner section */
+
+ .bio_avatar img {
+    height: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+ }
+
+
 /* 480px display rules */
 
 @media screen and (max-width:480px) {
@@ -191,6 +205,13 @@ section {
     .row_strategic {
         width: 100%;
     }
+    /* testimonial partner section */
+
+    .bio_avatar {
+        text-align: center;
+        flex-direction: column;
+    }
+
 }
 
 /* 768px display rules */
@@ -220,6 +241,7 @@ section {
     .row_strategic {
         width: 100%;
     }
+     /* testimonial partner section */
 }
 
 
