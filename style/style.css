@@ -29,6 +29,13 @@
 
 /* utilities rules */
 
+main {
+    padding-bottom: 20px;
+}
+section {
+    padding: 20px;
+}
+
 .main_container {
     width: 90%;
     max-width: 100%;
@@ -206,13 +213,19 @@ section {
 
 /* start get started section */
 
-.container_get_started {
+.container_get_started, .container_footer {
     width: 60%;
     margin: auto;
     max-width: 1170px;
     background-color: green;
     text-align: center;
 }
+
+/* start footer */
+footer {
+    background-color: black;
+}
+
 
 
 /* 480px display rules */
@@ -284,8 +297,14 @@ section {
     .about_us_image, .about_us_text {
         width: 100%;
     }
+    .about_us_card {
+        align-items: normal;
+    }
 
     /* start get started section */
+
+    /* start footer */
+
 
 
 }
@@ -328,6 +347,8 @@ section {
     /* start about us section */
 
     /* start get started section */
+
+    /* start footer */
 }
 
 
