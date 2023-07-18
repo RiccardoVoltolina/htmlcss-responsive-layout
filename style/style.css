@@ -13,10 +13,6 @@
     border: 1px solid black;
 }
 
-.debug .row_strategic {
-    border: 1px solid black;
-}
-
 .debug .bio_avatar {
     background-color: blue;
     border: 1px solid black;
@@ -82,6 +78,12 @@ section {
     position: absolute;
 }
 
+/* font size rules */
+
+.font-size-20 {
+    font-size: 20px;
+}
+
 .font-size-60 {
     font-size: 60px;
 }
@@ -122,6 +124,14 @@ section {
 
 .p-30 {
     padding: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
 }
 
 /* header */
@@ -214,6 +224,10 @@ section {
     width: 100%;
 }
 
+.app_developement {
+    padding: 30px;
+}
+
 .arrow_button {
     background-color: green;
     border-radius: 50%;
@@ -293,8 +307,12 @@ footer {
         padding: 0;
     }
     .card_top_left, .card_bottom {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         flex-direction: column;
+    }
+
+    .margin_480_display {
+        margin-top: 20px;
     }
 
     .card_top_left, .card_top_right, .card_bottom {
@@ -320,6 +338,10 @@ footer {
 
     .row_strategic {
         width: 100%;
+    }
+
+     .mt-40 {
+        margin: 0;
     }
     /* testimonial partner section */
 
@@ -369,12 +391,16 @@ footer {
     display: block;
    }
    .card_top_left, .card_bottom {
-    margin-bottom: 10px;
     flex-direction: column;
    }
 
    .get_application {
     width: 100%;
+   }
+
+   .get_application img {
+    max-width: 60%;
+    padding-top: 20px;
    }
     /* strategic section */ 
 
@@ -385,6 +411,7 @@ footer {
 
     .row_strategic {
         width: 100%;
+        margin: 0;
     }
      /* testimonial partner section */
 
