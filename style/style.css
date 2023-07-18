@@ -13,7 +13,7 @@
     border: 1px solid black;
 }
 
-.debug .card_bottom, .card_top, .row_strategic {
+.debug .row_strategic {
     border: 1px solid black;
 }
 
@@ -82,17 +82,53 @@ section {
     position: absolute;
 }
 
+.font-size-60 {
+    font-size: 60px;
+}
+
 /* padding rules */
 
 .p-5 {
     padding: 5px;
 }
 
+.p-10 {
+    padding: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.px-10 {
+    padding: 0 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.px-20 {
+    padding: 0 20px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
 /* header */
 
 .col_header {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .search {
@@ -100,6 +136,16 @@ section {
     width: 70%;
     justify-content: end;
     gap: 15px;
+}
+
+.search a {
+    text-decoration: none;
+}
+
+.search button {
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
 }
 
 .search i {
@@ -118,34 +164,38 @@ section {
 }
 
 .card_top_left {
-    width: 70%;
+    width: calc(67% - 22px);
 }
 
 .card_top_right {
-    width: 30%;
+    width: calc(100% / 3 - 20px);
 }
 
 .card_bottom {
     width: calc(100% / 3 - 20px);
 }
 
-.card_top_left, .card_top_right, .card_bottom {
-    padding: 10px;
+.card_bottom, .card_top_left, .card_top_right {
+    border: 1px solid black;
+    border-radius: 20px;
 }
+
+
 
 .get_application {
     width: calc(100% / 2);
 }
 
 .appstore_button {
-    padding: 10px;
+    padding: 10px 55px;
     border: none;
     border-radius: 30px;
 }
 
 .get_application img {
     max-width: 100%;
-    padding: 20px 15px;
+    padding-top: 20px;
+    padding-right:20px;
 }
 
 /* strategic section */
