@@ -31,9 +31,6 @@ body p {
     line-height: 25px;
 }
 
-main {
-    padding-bottom: 20px;
-}
 section {
     padding: 20px;
 }
@@ -170,6 +167,11 @@ section {
     padding-bottom: 70px;
 }
 
+.px-80 {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
 .mt-100 {
     margin-top: 100px;
 }
@@ -268,6 +270,10 @@ section {
     border: none;
     border-radius: 30px;
     background-color: var(--rsp-heanvenly);
+    color: var(--rsp-secondary);
+}
+
+.appstore_button i {
     color: var(--rsp-secondary);
 }
 
@@ -440,6 +446,32 @@ section {
 
 /* start get started section */
 
+.get_started {
+    background-color: var(--rsp-primary);
+}
+
+.get_started span {
+    color: lightgray;
+}
+
+.get_started h3 {
+    color: var(--rsp-secondary);
+    font-size: 40px;
+}
+
+.get_started h2 {
+    color: var(--rsp-special);
+    font-size: 80px;
+}
+
+.get_started p {
+    color: var(--rsp-secondary);
+}
+
+.get_started a {
+    color: var(--rsp-secondary);
+}
+
 .container_get_started, .container_footer {
     width: 80%;
     margin: auto;
@@ -451,6 +483,7 @@ section {
     border-radius: 30px;
     border: none;
     padding: 20px 60px;
+    color: var(--rsp-primary);
 }
 
 .circle {
@@ -461,7 +494,12 @@ section {
 
 /* start footer */
 footer {
-    background-color: black;
+    background-color: var(--rsp-footer);
+    color: var(--rsp-secondary);
+}
+
+ footer a {
+    color: var(--rsp-primary);
 }
 
 
@@ -561,6 +599,11 @@ footer {
         flex-wrap: wrap;
     }
 
+    .px-80 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     /* start footer */
 
 
@@ -583,6 +626,12 @@ footer {
    .get_application {
     width: 100%;
    }
+
+   .card_top_right, .card_bottom {
+    padding: 0 10px;
+    border-radius: 20px;
+    background-color: var(--rsp-light-heanvenly);
+}
 
    .get_application img {
     max-width: 60%;
