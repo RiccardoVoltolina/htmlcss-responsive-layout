@@ -114,6 +114,10 @@ section {
     padding: 15px;
 }
 
+.pb-15 {
+    padding-bottom: 15px;
+}
+
 .px-20 {
     padding-right: 20px;
     padding-left: 20px;
@@ -263,10 +267,22 @@ section {
 /* start benefits section */
 
 .card_benefits {
+    border-radius: 30px;
+    padding: 30px;
     margin:10px 0px;
     width: calc(100% / 3 - 20px);
     background-color: green;
     border: 1px solid black;
+}
+
+.card_benefits h2, .card_benefits h4, .card_benefits p {
+    padding-bottom: 15px;
+}
+
+.card_benefits button {
+    border-radius: 30px;
+    border: none;
+    padding: 10px 40px;
 }
 
 /* start about us section */
