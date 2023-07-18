@@ -223,7 +223,7 @@ header {
 /* info section */
 
 section {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .row_info {
@@ -331,10 +331,16 @@ section {
 
  /* testimonial partner section */
 
+ .testimonial h2 {
+    color: var(--rsp-primary);
+ }
+
  .bio_avatar {
     padding: 15px 10px;
     margin-bottom: 15px;
     border-radius: 30px;
+    background-color: var(--rsp-primary);
+    color: var(--rsp-secondary);
  }
 
  .bio_avatar img, .about_us_image img {
@@ -346,7 +352,25 @@ section {
 
 /* start benefits section */
 
+.benefit {
+    background-color: var(--rsp-primary);
+}
+
+.benefit h2 {
+    color: var(--rsp-secondary);
+}
+
+.benefit h3 {
+    font-size: 50px;
+    color: var(--rsp-primary);
+}
+
+.benefit h4 {
+    color: var(--rsp-primary);
+}
+
 .card_benefits {
+    background-color: var(--rsp-secondary);
     border-radius: 30px;
     padding: 30px;
     margin:10px 0px;
@@ -361,9 +385,16 @@ section {
     border-radius: 30px;
     border: none;
     padding: 10px 40px;
+    background-color: var(--rsp-primary);
+    color: var(--rsp-secondary);
 }
 
 /* start about us section */
+
+.about_us h2 {
+    color: var(--rsp-primary);
+    font-size: 40px;
+}
 
 .about_us_text {
     width: 70%;
@@ -372,6 +403,7 @@ section {
 
 .about_us_image {
     width: 30%;
+    color: var(--rsp-primary);
 }
 
 .about_us_card {
@@ -379,6 +411,10 @@ section {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+
+.about_us_card p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .marks {
@@ -397,7 +433,9 @@ section {
     border-radius: 30px;
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 70px;
+    background-color: var(--rsp-primary);
+    color: var(--rsp-secondary);
 }
 
 /* start get started section */
@@ -513,6 +551,10 @@ footer {
         align-items: normal;
     }
 
+    .linkedin_button {
+        left: 5px;
+    }
+
     /* start get started section */
 
     .container_get_started p {
@@ -569,7 +611,18 @@ footer {
 
     .linkedin_button {
         left: 0px;
+        bottom: 0;
     }
+
+    .about_us .width-60 {
+        width: 100%;
+    }
+
+    .about_us button {
+        margin-bottom: 100px;
+    }
+
+   
 
     /* start get started section */
 
