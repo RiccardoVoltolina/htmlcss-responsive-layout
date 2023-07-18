@@ -25,6 +25,10 @@
 
 /* utilities rules */
 
+body p {
+    line-height: 25px;
+}
+
 main {
     padding-bottom: 20px;
 }
@@ -290,6 +294,7 @@ section {
 .about_us_text {
     width: 70%;
     background-color: blue;
+    padding: 20px;
 }
 
 .about_us_image {
@@ -300,11 +305,26 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .marks {
+    top: 0px;
     position: absolute;
-    left: 70px;
+    left: 110px;
+}
+
+.marks i {
+    font-size: 40px;
+}
+
+.linkedin_button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 
 /* start get started section */
@@ -458,6 +478,10 @@ footer {
     }
 
     /* start about us section */
+
+    .linkedin_button {
+        left: 0px;
+    }
 
     /* start get started section */
 
