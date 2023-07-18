@@ -1,22 +1,20 @@
 * {
     margin: 0;
-    padding: 0;box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+    :root {
+        --rsp-primary: #9792E4;
+        --rsp-secondary: #FFFFFF;
+        --rsp-heanvenly: #0084FD;
+        --rsp-light-heanvenly: #B5DDFF;
+        --rsp-special: #FDC15F;
+        --rsp-footer: #333333;    
+    }
 
 /* debug rules */
 
-.debug .main_container {
-    background-color: red;
-}
-
-.debug .col_header {
-    border: 1px solid black;
-}
-
-.debug .bio_avatar {
-    background-color: blue;
-    border: 1px solid black;
-}
 
 
 
@@ -24,6 +22,10 @@
 
 
 /* utilities rules */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 body p {
     line-height: 25px;
@@ -135,6 +137,15 @@ section {
     padding-bottom: 20px;
 }
 
+.pl-20 {
+    padding-left: 20px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .p-30 {
     padding: 30px;
 }
@@ -159,7 +170,27 @@ section {
     padding-bottom: 70px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.mt-140 {
+    margin-top: 140px;
+}
+
 /* header */
+
+header {
+    background-color: var(--rsp-heanvenly);
+}
 
 .col_header {
     width: 100%;
@@ -175,9 +206,11 @@ section {
 
 .search a {
     text-decoration: none;
+    color: var(--rsp-secondary);
 }
 
 .search button {
+    background-color: var(--rsp-secondary);
     border-radius: 30px;
     padding: 10px;
     border: none;
@@ -198,6 +231,15 @@ section {
     padding: 10px 0;
 }
 
+.row_info i {
+    color: var(--rsp-heanvenly);
+}
+
+.row_info h3 {
+    color: var(--rsp-heanvenly);
+    font-family: 'Open Sans', sans-serif;
+}
+
 .card_top_left {
     width: calc(67% - 22px);
 }
@@ -211,8 +253,8 @@ section {
 }
 
 .card_bottom, .card_top_left, .card_top_right {
-    border: 1px solid black;
     border-radius: 20px;
+    background-color: var(--rsp-light-heanvenly);
 }
 
 
@@ -225,15 +267,26 @@ section {
     padding: 10px 55px;
     border: none;
     border-radius: 30px;
+    background-color: var(--rsp-heanvenly);
+    color: var(--rsp-secondary);
+}
+
+.apple {
+    padding-right: 5px;
+    font-size: 20px;
 }
 
 .get_application img {
-    max-width: 100%;
-    padding-top: 20px;
+    max-width: 80%;
+    padding-top: 50px;
     padding-right:20px;
 }
 
 /* strategic section */
+
+.strategic_bkc {
+    background-color: var(--rsp-primary);
+}
 
 .strategic_container {
     max-width: 80%;
@@ -245,16 +298,31 @@ section {
     padding: 20px;
 }
 
-.row_strategic img {
+
+.width-100 {
     width: 100%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.color_secondary {
+    color: var(--rsp-secondary);
+}
+
+.color_secondary h3 {
+    font-size: 20px;
 }
 
 .app_developement {
     padding: 30px;
+    background-color: var(--rsp-secondary);
+    border-radius: 30px;
 }
 
 .arrow_button {
-    background-color: green;
+    background-color: var(--rsp-primary);
     border-radius: 50%;
     border: none;
     width: 50px;
@@ -283,8 +351,6 @@ section {
     padding: 30px;
     margin:10px 0px;
     width: calc(100% / 3 - 20px);
-    background-color: green;
-    border: 1px solid black;
 }
 
 .card_benefits h2, .card_benefits h4, .card_benefits p {
@@ -301,7 +367,6 @@ section {
 
 .about_us_text {
     width: 70%;
-    background-color: blue;
     padding: 20px;
 }
 
@@ -341,7 +406,6 @@ section {
     width: 80%;
     margin: auto;
     max-width: 1170px;
-    background-color: green;
     text-align: center;
 }
 
@@ -412,7 +476,7 @@ footer {
         width: 100%;
     }
 
-     .mt-40 {
+     .mt-140 {
         margin: 0;
     }
     /* testimonial partner section */
